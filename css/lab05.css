@@ -1,0 +1,74 @@
+header{
+   background-color: #A9A9A9;
+   background-image: url("../images/shinchantrain.jpg");
+}
+
+h1{
+  color: brown;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section {
+  background-color: #BDB76B;
+  font-family:verdana;
+}
+
+nav a{
+  color: #ADFF2F;
+}
+
+img {
+  /* display:none; */
+}
+
+table,th,tr,td{
+  border: 5px;
+  border-style: groove;
+  padding: 2%;
+  margin: 1%;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-bottom: 25px;
+  margin-top: : 25px;
+  margin-left: auto;
+  border-style: solid;
+}
+
+.left, .right{
+  display: inline-block;
+  /* height:100%; */
+}
+.left{
+  width: 20%;
+  float:left;
+}
+
+.right{
+  width: 80%;
+}
+
+a:hover{
+  background:#80ff00;
+  color:#00ffff;
+}
+
+a:focus{
+  background:#ff0080;
+  color: #bf00ff:
+}
+
+a:active{
+  border: 2px solid #0040ff;
+}
+
+
+
+/*
+-	Use CSS script to style the table border
+-	Set the margin and padding to some value (e.g., 10px)
+*/
